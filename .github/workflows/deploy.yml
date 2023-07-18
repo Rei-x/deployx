@@ -32,3 +32,5 @@ jobs:
           goarch: ${{ matrix.goarch }}
           goversion: "https://dl.google.com/go/go1.13.1.linux-amd64.tar.gz"
           extra_files: LICENSE README.md
+          project_path: cmd/deployx
+          overwrite: true
